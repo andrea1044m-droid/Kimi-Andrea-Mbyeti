@@ -1,0 +1,6 @@
+{
+  "name": "Bota e Atomeve – Kimia Klasa 9",
+  "description": "Website edukativ modern dhe interaktiv për lëndën e Kimisë, klasa e 9-të: struktura e atomit, numri atomik dhe i masës, shpërndarja elektronike, modele interaktive dhe kuiz.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

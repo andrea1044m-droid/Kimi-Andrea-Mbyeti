@@ -1,0 +1,88 @@
+import { Flashcard } from '../types/chemistry';
+
+export const FLASHCARDS: Flashcard[] = [
+  {
+    id: 1,
+    category: 'Përkufizim',
+    question: 'Çfarë është atomi?',
+    answer: 'Atomi është njësia bazë përbërëse e gjithë materies. Përbëhet nga bërthama qendrore me ngarkesë pozitive dhe reja elektronike përreth saj.',
+    tip: 'Mbaj mend: Atomi nuk është i pandashëm, ka grimca nënatomike!',
+  },
+  {
+    id: 2,
+    category: 'Grimcat',
+    question: 'Cilat janë 3 grimcat kryesore nënatomike dhe ngarkesat e tyre?',
+    answer: '1. Protoni (p⁺) — ngarkesë pozitive (+1)\n2. Neutroni (n⁰) — pa ngarkesë (0)\n3. Elektroni (e⁻) — ngarkesë negative (−1)',
+    tip: 'Protonet dhe neutronet janë në bërthamë, elektronet jashtë.',
+  },
+  {
+    id: 3,
+    category: 'Formulë',
+    question: 'Çfarë tregon numri atomik (Z)?',
+    answer: 'Numri atomik Z tregon numrin e protoneve në bërthamë. Në një atom neutral ai është i barabartë edhe me numrin e elektroneve: Z = p⁺ = e⁻.',
+    tip: 'Numri atomik përcakton identitetin e elementit në tabelën periodike.',
+  },
+  {
+    id: 4,
+    category: 'Formulë',
+    question: 'Si llogaritet numri i masës (A) dhe numri i neutroneve (n⁰)?',
+    answer: '• Numri i masës: A = p⁺ + n⁰\n• Numri i neutroneve: n⁰ = A − Z',
+    tip: 'Masa e elektronit nuk llogaritet sepse është pothuajse 2000 herë më e vogël.',
+  },
+  {
+    id: 5,
+    category: 'Izotopet',
+    question: 'Çfarë janë izotopet?',
+    answer: 'Izotopet janë atome të të njëjtit element që kanë të njëjtin numër protonesh (Z), por numër të ndryshëm neutronesh (n⁰) dhe prandaj masa të ndryshme (A).',
+    tip: 'Shembull: Karbon-12 (6p, 6n) dhe Karbon-14 (6p, 8n).',
+  },
+  {
+    id: 6,
+    category: 'Shtresat',
+    question: 'Sa elektrone mban maksimalisht secila shtresë për klasën e 9-të?',
+    answer: '• Shtresa e 1-rë (K): deri në 2 elektrone (dublet)\n• Shtresa e 2-të (L): deri në 8 elektrone (oktet)\n• Shtresa e 3-të (M): deri në 8 elektrone (për elementet deri te Z=20)',
+    tip: 'Rregulli: 2 në të parën, 8 në të dytën, 8 në të tretën!',
+  },
+  {
+    id: 7,
+    category: 'Elektrone Valente',
+    question: 'Çfarë quhen elektrone valente?',
+    answer: 'Elektrone valente quhen elektronet e shtresës më të jashtme të atomit. Ato përcaktojnë vetitë kimike dhe aftësinë për të formuar lidhje me atome të tjera.',
+    tip: 'P.sh. Klori ka 7 elektrone valente (2, 8, 7), Natriumi ka 1 (2, 8, 1).',
+  },
+  {
+    id: 8,
+    category: 'Shembull',
+    question: 'Si është shpërndarja elektronike e Oksigjenit (Z=8) dhe Natriumit (Z=11)?',
+    answer: '• Oksigjeni (8e⁻): 2, 6 (ka 6 elektrone valente)\n• Natriumi (11e⁻): 2, 8, 1 (ka 1 elektron valent)',
+    tip: 'Kontrollo gjithmonë: 2 + 6 = 8 dhe 2 + 8 + 1 = 11!',
+  },
+  {
+    id: 9,
+    category: 'Grupi 1A',
+    question: 'Pse reaktiviteti i metaleve alkaline rritet duke zbritur në grup?',
+    answer: 'Duke zbritur në grup shtohen shtresat elektronike dhe rrezja atomike zmadhohet. Elektroni i vetëm valent ndodhet më larg bërthamës dhe lëshohet shumë më lehtë!',
+    tip: 'Rendi i reaktivitetit: Li < Na < K < Rb < Cs.',
+  },
+  {
+    id: 10,
+    category: 'Reaksion me Ujin',
+    question: 'Çfarë produktesh jep reaksioni i metalit alkalik me ujin?',
+    answer: 'Jep hidroksidin përkatës bazik (alkal) dhe gaz hidrogjen:\n2M + 2H₂O → 2MOH + H₂ ↑\n(p.sh. 2Na + 2H₂O → 2NaOH + H₂ ↑)',
+    tip: 'Tretësira e krijuar është bazike (e kthen lakmusin në blu).',
+  },
+  {
+    id: 11,
+    category: 'Grupi 7A',
+    question: 'Pse reaktiviteti i Halogjeneve zvogëlohet duke zbritur në grup?',
+    answer: 'Sepse halogjenet duan të MARRIN 1 elektron. Atomi i vogël i Fluorit e tërheq më me forcë elektronin pranë bërthamës, ndërsa jodi i madh e tërheq shumë më dobët.',
+    tip: 'Rendi i reaktivitetit: F > Cl > Br > I (e kundërta e Grupit 1A).',
+  },
+  {
+    id: 12,
+    category: 'Prirjet Periodike',
+    question: 'Si ndryshon rrezja atomike përgjatë një periode nga e majta në të djathtë?',
+    answer: 'Rrezja atomike ZVOGËLOHET sepse rritet numri i protoneve në bërthamë (ngarkesa bërthamore), duke i tërhequr më fort shtresat elektronike drejt qendrës.',
+    tip: 'Në periudhë rrezja zvogëlohet, në grup rrezja rritet duke zbritur!',
+  },
+];
